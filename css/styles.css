@@ -73,14 +73,7 @@ button{
   font-style: normal;
 }
 
-.footer-logo {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #f4f4fd;
-}
+
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -186,7 +179,6 @@ padding: 120px 0 72px;
 }
 
 .team-item {
-
   text-align: center;
   background-color: #fff;
   border-radius: 0 0 4px 4px;
@@ -285,8 +277,18 @@ border: 1px solid #e7e9fc;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  padding-top: 16px;
   width: 264px;
+}
+
+.footer-logo {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-bottom: 16px;
 }
 
 
