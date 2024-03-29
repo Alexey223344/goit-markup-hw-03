@@ -40,13 +40,7 @@ button{
   min-width: 169px 
 }
 
-.visually-hidden {
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
+
 
 .header-container {
   display: flex;
