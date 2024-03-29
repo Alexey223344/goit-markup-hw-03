@@ -190,6 +190,7 @@ padding: 120px 0 72px;
 }
 
 .team-section {
+  padding: 120px 0;
   background: #f4f4fd;
 
 }
@@ -201,10 +202,8 @@ padding-bottom: 32px;
 .team-title{
 padding-bottom: 4px;
 }
-
-.portfolio-section{
-  padding-bottom: 120px;
-
+.our-team{
+  margin-bottom: 72px;
 }
 
 .portfolio-list{
