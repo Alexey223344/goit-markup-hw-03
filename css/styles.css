@@ -40,6 +40,14 @@ button{
   min-width: 169px 
 }
 
+.visually-hidden {
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -163,12 +171,22 @@ button{
   gap: 24px;
 }
 
+.advantages-item{
+ width: calc((100% - 72px) / 4);
+}
+
+
+.advantages-title{
+  margin-bottom: 8px;
+}
+
 .section-number{
 padding: 120px 0 72px;
 
 }
 
 .team-item {
+
   text-align: center;
   background-color: #fff;
   border-radius: 0 0 4px 4px;
