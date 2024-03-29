@@ -39,6 +39,17 @@ img {
 button {
   min-width: 169px;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
 
 .header-container {
   display: flex;
@@ -170,7 +181,12 @@ button {
   padding: 120px 0 72px;
 }
 
+.team-section-wrap{
+   padding: 32px 0;
+}
+
 .team-item {
+  width: calc((100% - 72px) / 4);
   text-align: center;
   background-color: #fff;
   border-radius: 0 0 4px 4px;
@@ -193,7 +209,12 @@ button {
 }
 
 .team-title {
-  padding-bottom: 4px;
+  text-align: center;
+  margin-bottom: 8px
+}
+
+.team-text{
+  text-align: center;
 }
 .our-team {
   margin-bottom: 72px;
@@ -202,11 +223,18 @@ button {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  row-gap: 48px;
   gap: 24px;
+  margin-bottom: 0;
 }
 
-.portfolio {
-  padding: 120px 0 72px;
+.portfolio-section{
+padding-top: 120px;
+ padding-bottom: 120px;
+}
+
+.portfolio{
+   margin-bottom: 72px;
 }
 
 .portfolio-img {
@@ -219,13 +247,10 @@ button {
 .portfolio-title {
   padding: 0 0 8px 16px;
 }
-.portfolio-text {
-  padding-left: 16px;
-  padding-bottom: 32px;
-}
+
 
 .portfolio-info {
-  border: 1px solid #e7e9fc;
+  width: calc((100% - 48px) / 3);
 }
 
 .advantages-title,
