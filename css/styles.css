@@ -168,6 +168,10 @@ button{
  width: calc((100% - 72px) / 4);
 }
 
+.advantages{
+  visibility: hidden;
+}
+
 
 .advantages-title{
   margin-bottom: 8px;
@@ -281,7 +285,7 @@ border: 1px solid #e7e9fc;
 }
 
 .footer-logo {
-  display: block;
+  display: inline-block;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
