@@ -54,7 +54,7 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+/* ------------------header---------------------- */
 .header-container {
   display: flex;
   align-items: center;
@@ -132,6 +132,8 @@ button {
   color: #404bbf;
 }
 
+
+/* -------------------Hero------------------------- */
 .hero-section {
   padding: 188px 0;
   background-color: #2e2f42;
@@ -166,6 +168,9 @@ button {
 .hero-btn:focus {
   background-color: #404bbf;
 }
+
+
+/* ---------------Advantages-------------------- */
 
 .advantages-section {
   padding: 120px 0;
