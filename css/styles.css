@@ -93,6 +93,7 @@ button {
 .header-logo {
   display: block;
   margin-right: 76px;
+  padding: 24px 0;
 }
 .logo-part {
   color: #2e2f42;
